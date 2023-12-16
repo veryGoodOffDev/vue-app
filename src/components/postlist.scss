@@ -1,0 +1,25 @@
+ul li {
+    list-style: none;
+}
+
+.post {
+    border-radius: 5px;
+    margin: 5px;
+    &post-text {
+        text-wrap: balance;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: end;
+    }
+    &-delete {
+        padding: 15px;
+        background-color: aquamarine;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    &-list {
+        padding: 20px;
+    }
+}

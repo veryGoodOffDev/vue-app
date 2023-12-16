@@ -1,0 +1,14 @@
+.user-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
