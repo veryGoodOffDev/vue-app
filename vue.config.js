@@ -5,7 +5,7 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: "/test-vue/"
+  publicPath: "/vue-app/"
 }
 
 
